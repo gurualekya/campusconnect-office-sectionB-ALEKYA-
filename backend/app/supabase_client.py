@@ -13,3 +13,6 @@ if not SUPABASE_URL or not SUPABASE_KEY:
 
 # One shared connection used by the whole backend
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
+
+
+#http://127.0.0.1:10000
